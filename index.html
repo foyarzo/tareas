@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ejercicio de Funciones JavaScript</h1>
+        <div class="section">
+            <h2>Palindrome</h2>
+            <input type="text" id="palindromeInput" placeholder="Ingresa una palabra">
+            <button onclick="checkPalindrome()">Verificar</button>
+            <p id="palindromeResult"></p>
+        </div>
+        <div class="section">
+            <h2>Contar Vocales</h2>
+            <input type="text" id="vowelsInput" placeholder="Ingresa un texto">
+            <button onclick="countVowels()">Contar</button>
+            <p id="vowelsResult"></p>
+        </div>
+        <div class="section">
+            <h2>Crear Persona</h2>
+            <input type="text" id="personName" placeholder="Nombre">
+            <input type="number" id="personAge" placeholder="Edad">
+            <button onclick="createPerson()">Crear</button>
+            <p id="personDetails"></p>
+        </div>
+        <div class="section">
+            <h2>Multiplicar por Dos</h2>
+            <input type="text" id="multiplyInput" placeholder="Ingresa dos números separados por coma">
+            <button onclick="multiplyByTwo()">Multiplicar</button>
+            <p id="multiplyResult"></p>
+        </div>
+        <div class="section">
+            <h2>Filtrar Números Pares</h2>
+            <input type="text" id="evenNumbersInput" placeholder="Ingresa números separados por coma">
+            <button onclick="filterEvenNumbersInput()">Filtrar</button>
+            <p id="evenNumbersResult"></p>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
